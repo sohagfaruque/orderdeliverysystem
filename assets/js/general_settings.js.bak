@@ -1,0 +1,139 @@
+function SubmitItem_global(pid)
+{	
+	if(checkBlankField(document.form_01.mgmt_name.value) == false)
+	{	alert("Please enter the user name.");
+		document.form_01.mgmt_name.select();
+		return false;
+	}
+	if (checkBlankField(document.form_01.mgmt_email.value) == false )
+    {
+        alert ( "Please enter the email address." );
+		document.form_01.mgmt_email.select();
+        return false;
+    }
+	else
+	{
+		if(valid_email(document.form_01.mgmt_email.value)==true)
+		{
+			alert ( "Please enter the correct email address." );
+			document.form_01.mgmt_email.focus()
+			return false
+		}
+	}
+	if (checkBlankField(document.form_01.from_email.value) == false )
+    {
+        alert ( "Please enter the from email address." );
+		document.form_01.from_email.select();
+        return false;
+    }
+	else
+	{
+		if(valid_email(document.form_01.from_email.value)==true)
+		{
+			alert ( "Please enter the correct from email address." );
+			document.form_01.from_email.focus()
+			return false
+		}
+	}
+	if(checkBlankField(document.form_01.website_favicon.value) == true)
+	{	
+		var pic1 = document.form_01.website_favicon.value;
+		if(pic1!="")
+		{	
+			var new_pic1 = pic1.substring(pic1.lastIndexOf('.'),pic1.length);
+			if(new_pic1!=".ico" && new_pic1!=".ICO")
+			{	
+				alert("Please upload only icon file.");
+				document.form_01.website_favicon.focus();
+				return false;
+			 }
+		 }
+	}
+	if (checkBlankField(document.form_01.image_max_size.value) == false )
+    {
+        alert ( "Please enter image maximum size." );
+		document.form_01.image_max_size.select();
+        return false;
+    }	
+	if (IsNumeric(document.form_01.image_max_size.value) == false )
+    {
+        alert ( "Please enter image maximum size in numeric only." );
+		document.form_01.image_max_size.select();
+        return false;
+    }
+	
+	if (checkBlankField(document.form_01.footer_address.value) == false )
+    {
+        alert ( "Please enter the footer address." );
+		document.form_01.footer_address.select();
+        return false;
+    }
+	if (checkBlankField(document.form_01.phone_number.value) == false )
+    {
+        alert ( "Please enter the phone number." );
+		document.form_01.phone_number.select();
+        return false;
+    }
+	if (checkBlankField(document.form_01.facebook_url.value) == false )
+    {
+        alert ( "Please enter the facebook url." );
+		document.form_01.facebook_url.select();
+        return false;
+    }
+	if (checkBlankField(document.form_01.twitter_url.value) == false )
+    {
+        alert ( "Please enter the twitter url." );
+		document.form_01.twitter_url.select();
+        return false;
+    }
+	if (checkBlankField(document.form_01.google_plus_url.value) == false )
+    {
+        alert ( "Please enter the google plus url." );
+		document.form_01.google_plus_url.select();
+        return false;
+    }
+
+	/*if (IsNumeric(document.form_01.phone_number.value) == false )
+    {
+        alert ( "Please enter phone number in numeric only." );
+		document.form_01.phone_number.select();
+        return false;
+    }*/
+	if (checkBlankField(document.form_01.copywrite_message.value) == false )
+    {
+        alert ( "Please enter the copyright message." );
+		document.form_01.copywrite_message.select();
+        return false;
+    }
+	if (checkBlankField(document.form_01.no_of_days_msg.value) == false )
+    {
+        alert ( "Please enter the fax number." );
+		document.form_01.no_of_days_msg.select();
+        return false;
+    }
+	/*if (checkBlankField(document.form_01.tagline.value) == false )
+    {
+        alert ( "Please enter the Video Url." );
+		document.form_01.tagline.select();
+        return false;
+    }
+	
+	
+	if (checkBlankField(document.form_01.footer_address.value) == false )
+    {
+        alert ( "Please enter the footer address." );
+		document.form_01.footer_address.select();
+        return false;
+    }
+
+	
+
+	if (checkBlankField(document.form_01.website_address.value) == false )
+    {
+        alert ( "Please enter the website address." );
+		document.form_01.website_address.select();
+        return false;
+    }
+*/
+	document.form_01.submit();	
+}

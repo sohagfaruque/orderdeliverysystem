@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+.css {
+	font-family: Arial, Helvetica, sans-serif;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, hr, button{ margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align: baseline; background:none;}
+ol, ul {list-style:none;}
+h1, h2, h3, h4, h5, h6, li {line-height:100%;}
+body { background: url(../images/back.png) repeat;argin:opx; padding:opx; font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#717171;}
+.center{ text-align:center ; margin:0px auto; max-width:395px;}
+.logo{ text-align:center; margin:55px 0px 0px 0px ; width:auto;}
+.box{ float:left; width:100%;text-align:center; margin:10px 0px 0px 0px; height:auto; background:#FFF;-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888; width:100%;}
+.form { float:left; width:100%; margin:19px 0px 0px 0px;}
+.form .field{width:100%; max-width:331px; height:48px;-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;; margin-top:10px; padding-left:11px; color:#000; background:#dddddd; margin:22px 0px 0px 0px; border:none;}
+.form span{ float:left; width:auto; margin:36px 5px 0px 42px;}
+.form .small-field{ float:left; width:48px; margin:22px 0px 0px 0px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; min-height:48px; background:#dddddd;
+border:none;}
+.result{float:left; width:auto; margin:36px 5px 0px 6px;}
+.button{ float:left; width:100%; max-width:331px; height:48px; border-bottom:solid 3px #101926; background:#232f40;-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;; margin-top:10px; padding-left:11px;  margin:22px 28px 0;}
+.button a{ float:left; text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:18px; color:#FFF; margin:12px 0 18px 125px; text-transform:uppercase; font-family: 'Open Sans', sans-serif; text-decoration:none;}
+.Remember span{ float:left;font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000;}
+.left_side{ float:left; max-width:139px;}
+.Remember{ float:left; margin:71px 9px 10px 9px;}
+.Remember input[type="checkbox"]{ float:left; padding:73px 10px 10px 10px;}
+.right_side{ float:right; max-width:127px; margin:69px -225px 10px 0px;}
+.pass{ float:right;}
+.pass span{ float:right;font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000;}
+.lst{float:left; margin:22px 8px 0px 125px ; } 
+.lst span{text-align:center; width:auto;font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000;text-decoration:none;}
+
+
+
+/*****************************************************************inner page css starts*****************************************************************/
+
+
+.left_countainer{ float:left; width:25%; max-width:238px; background:#424f63; min-height:800px;}
+.heading{ float:left; width:213px; margin:47px 13px 0px 13px;font-family: 'Open Sans', sans-serif; font-size:18px; text-transform:uppercase; color:#FFF; text-align:center;}
+.navigation{ float:left; width:auto; margin:44px 0px 0px 0px;}
+.navigation ul{ list-style:none;}
+.navigation ul, .navigation ul li, .navigation ul li a{ float:left; width:100%; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;}
+
+.navigation ul li a{ float:left; width:100%; margin:0px 0px 0px 0px; padding:9px 0 16px ; color:#FFF; text-decoration:none;}
+
+.navigation ul li a span{ margin:12px 0 0 13px;}
+
+.navigation ul li a:hover {
+    background: #232f40;
+    color: #FFFFFF;
+}
+.navigation ul .active a {
+    background: #232f40; color:#FFF;
+	}
+	
+.navigation ul  li a img{ margin-left:10px;}
+
+.top{ float:left; width:100%; height:28px; margin:0px 0px 0px 0px; background:#232f40; position:fixed;}
+
+.para_right { float:right; width:17%; font-family: 'Open Sans', sans-serif; font-size:14px; color:#FFF; margin:4px 10px 8px 0px ; text-decoration:none;}
+
+.para_right a{ color:#FFF;  text-decoration: none;}
+.log_capture_left { float:left; width:50%; font-family: 'Open Sans', sans-serif; font-size:14px; color:#000;  text-decoration:none;}
+
+.log_capture_right { float:left; width:50%; font-family: 'Open Sans', sans-serif; font-size:14px; color:#000;  text-decoration:none;}
+.right_countainer{ float:left; width:73%; margin-left:2%; margin-bottom: 1%; margin-top:3%; background:#FFF;-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;  min-height:720px;}
+.bx{ float:left; width:212px; height:77px;margin:90px 0px 0px 11px; background:#dddddd; }
+.bx .icon{ float:left; width:82px; height:77px; text-align:center;}
+.bx .icon img{ margin-top:20px;}
+.hedingbx{float:left; width:94px; margin:15px 0 0 13px; font-family:'Open Sans', sans-serif; font-size:14px; color:#000; text-align:center;line-height:24px;}
+.bx .icon{ float:left; width:82px; height:77px; text-align:center;}
+
+.green{ background:#6ccac9;}
+.orange{ background:#ff6c60; }
+.yellow{ background:#f8d347;}
+.blue{ background:#57c8f2 ;}
+
+/*
+			Load CSS before JavaScript
+		*/
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		#slides .slides_container {
+			width:570px;
+			height:170px;
+			display:none;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		
+		#slides .slides_container .contentdiv {
+			width:570px;
+			height:170px;
+			display:block;
+		}
+		
+		/*
+			Slides container
+			Important:
+			Set the width of your slides container
+			Set to display none, prevents content flash
+		*/
+		#slides_two .slides_container {
+			width:250px;
+			display:none;
+		}
+
+		/*
+			Each slide
+			Important:
+			Set the width of your slides
+			If height not specified height will be set by the slide content
+			Set to display block
+		*/
+		
+		#slides_two .slides_container .contentdiv {
+			width:250px;
+			height:250px;
+			display:block;
+		}
+		
+
+		
+		/* 
+			Example only
+		*/
+		.pagination .current a {
+			color:red;
+		}
+		hr {
+			background:#efefef;
+		}
+		
+		
+.pagination ul{ float:left; width:100%; margin:30px 0px 0px 0px;}
+.pagination ul li{ float:left; width:auto;}
+.menu_name{ float:left; width:auto; max-width:188px; background:#232f40; color:#FFF; border-radius:4px 4px 0px 0px; -webkit-border-radius:4px 4px 0px 0px; -moz-border-radius:4px 4px 0px 0px; font-family:'Open Sans', sans-serif; font-size:18px; padding:10px 20px 10px 20px;}
+
+.menu_name:hover{ background:#424f63; color:#FFF;}
+.pagination ul li .selected .menu_name{ background:#424f63;}
+
+.contentdiv table{ width:100%;}
+.contentdiv table th{ background:#dddddd; color:#232f40; font-family:'Open Sans', sans-serif;}
+.contentdiv table td{ text-align:center; font-family:'Open Sans', sans-serif; }
+
+
+/*****************************************************************edit-page*****************************************************************/
+.listing_header{line-height:30px;}
+.impbutton { float:right; width:auto; margin:20px 20px 0px 0px;}
+.impbutton .cancel-btn {float:right; width:auto; margin:0px 0px 0px 0px ; color:#232f40;font-family:'Open Sans', sans-serif; font-size:14px;}
+.impbutton .cancel-btn  span{ float:right; width:100%; text-align:center;}
+.impbutton .update-btn {float:right; width:auto; margin:0px 40px 0px 0px ;}
+.impbutton .update-btn  span{ float:right; width:100%; text-align:center;  color:#232f40;font-family:'Open Sans', sans-serif; font-size:14px;}
+.center_box{float:left; width:98%; margin:11px 9px 9px 10px;-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; border:1px solid #d6d6d6;}
+
+.cont { float:left; font-family:'Open Sans', sans-serif; font-size:14px; color:#232f40; margin:16px 0 0 9px; }
+
+.tab .field{ width:100%; max-width:385px; padding-left:8px; margin:9px; height:37px; background:#dddddd; border:none;-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+margin:9px 0px 0px 55px;
+}
+
+.img_field{ margin:9px 0px 0px 55px;}
+.table{ float:left; width:98%; margin:10px 0px 0px 10px;}
+
+.meta_title { float:left; width:112px;font-family:'Open Sans', sans-serif; font-size:14px; color:#232f40; margin:10px 0 0 9px;}
+.message .field{ width:100%; max-width:385px; margin:9px; height:137px; background:#dddddd; border:none;-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; margin:9px 0px 0px 55px;}
+.edit_box { float:left; width:100%;}
+.listing-page{ float:left; width:92%; padding:4%;}
+
+.textarea1{background: none repeat scroll 0 0 #DDDDDD;
+    border: medium none;
+    border-radius: 3px;
+    height: 80px;
+    margin: 9px 0 0 55px;
+    max-width: 385px;
+    padding-left: 7px;
+	padding-top: 7px;
+    width: 100%;
+}
+.mar input{margin:9px 0 0 55px;}
+.msg_red{color: red;}
+.msg_green{color: green;}
+
+.error_msg {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    float: left;
+    font-size: 24px;
+    margin: 34px 0 0 18px;
+    width: 40%;
+}
+.cke_1.cke.cke_reset.cke_chrome.cke_editor_page_desc.cke_ltr.cke_browser_gecko {
+    width: 93%;
+}
